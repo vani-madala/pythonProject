@@ -1,5 +1,5 @@
 numbers=int(input(""))
-for number in range(0,numbers+1):
+for number in range(1,numbers+1):
     if(number%3==0):
         print("fix")
     elif(number%5==0):
